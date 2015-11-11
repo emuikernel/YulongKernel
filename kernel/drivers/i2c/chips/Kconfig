@@ -1,0 +1,16 @@
+#
+# Miscellaneous I2C chip drivers configuration
+#
+# *** DEPRECATED! Do not add new entries! See Makefile ***
+#
+
+menu "Miscellaneous I2C Chip support"
+
+config SOUND_FM2018
+	tristate "FM2018 Echo Clear Driver"
+	depends on I2C
+	default n
+	help
+	  FM2018 Echo Clear Driver implemented by COOLPAD.
+
+endmenu

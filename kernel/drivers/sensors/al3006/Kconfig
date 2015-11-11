@@ -1,0 +1,7 @@
+
+config SENSORS_AL3006
+	tristate "al3006 ALS&Proximity Support"
+	depends on I2C=y
+	help
+	  al3006 ALS&Proximity Driver
+	  

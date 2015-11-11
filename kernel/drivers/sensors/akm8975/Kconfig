@@ -1,0 +1,6 @@
+
+config SENSORS_AKM8975
+	tristate "akm8975 Compass Support"
+	depends on I2C=y
+	help
+	  akm8975 Compass Driver

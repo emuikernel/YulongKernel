@@ -1,0 +1,6 @@
+CONFIG_YL_DEBUG=y
+###############################
+#configs for module management#
+###############################
+CONFIG_YULONG_MODULE_MANAGEMENT=n
+

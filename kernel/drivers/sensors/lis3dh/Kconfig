@@ -1,0 +1,6 @@
+
+config SENSORS_LIS3DH
+	tristate "lis3dh Acceleration Support"
+	depends on I2C=y
+	help
+	  lis3dh Acceleration Driver

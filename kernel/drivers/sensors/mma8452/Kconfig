@@ -1,0 +1,5 @@
+config SENSORS_MMA8452
+	tristate "mma8452 Acceleration Support"
+	depends on I2C=y
+	help
+	  mma8452 Acceleration Driver

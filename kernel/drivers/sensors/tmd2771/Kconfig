@@ -1,0 +1,7 @@
+
+config SENSORS_TMD2771
+	tristate "tmd2771 ALS&Proximity Support"
+	depends on I2C=y
+	help
+	  tmd2771 ALS&Proximity Driver
+	  

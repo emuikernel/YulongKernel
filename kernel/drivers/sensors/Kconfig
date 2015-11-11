@@ -1,0 +1,16 @@
+#
+# sensors devices
+#
+
+menu "Sensors Drivers"
+
+source "drivers/sensors/mma8452/Kconfig"
+source "drivers/sensors/al3006/Kconfig"
+source "drivers/sensors/tmd2771/Kconfig"
+source "drivers/sensors/ltr558/Kconfig"
+source "drivers/sensors/bmc050/Kconfig"
+source "drivers/sensors/akm8975/Kconfig"
+source "drivers/sensors/lis3dh/Kconfig"
+source "drivers/sensors/lsm303d/Kconfig"
+
+endmenu

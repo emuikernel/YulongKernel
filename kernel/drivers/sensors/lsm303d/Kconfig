@@ -1,0 +1,6 @@
+
+config SENSORS_LSM303D
+	tristate "lsm303d Acceleration&&compass Support"
+	depends on I2C=y
+	help
+	  lsm303d Acceleration&&compass Driver

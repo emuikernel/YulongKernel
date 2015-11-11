@@ -1,0 +1,3 @@
+
+obj-$(CONFIG_SENSORS_AL3006) += al3006.o
+

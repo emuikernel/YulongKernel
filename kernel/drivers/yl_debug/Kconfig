@@ -1,0 +1,18 @@
+#
+# mis
+#
+
+config ANDROID_DEV_DEBUG
+	bool "android device debug support"
+	help
+	  for debug value & gpio change
+
+config YULONG_DEBUG
+	bool "debug support"
+	help
+	  for debug value & gpio change
+
+config YULONG_MODULE_MANAGEMENT
+	bool "yulong module management support"
+	help
+	  The driver provides an method for on or off device.
